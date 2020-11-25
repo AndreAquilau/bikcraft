@@ -4,18 +4,16 @@ import { mesaTrabalho } from '../../assets';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
+  width: 100vw;
   .intro-home {
     display: flex;
     flex-direction: column;
     height: 333px;
+    width: 100vw;
     align-items: center;
     justify-content: center;
     animation: intro-animation-home 1s;
-
-    background-image: url(${mesaTrabalho});
-    background-repeat: no-repeat;
-    background-position: 100% 70%;
-    background-attachment: fixed;
+    background: url(${mesaTrabalho}) 100% 100% / 100% 100% no-repeat fixed;
 
     text-align: center;
 
