@@ -6,6 +6,9 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 4%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 
   .qualidade-header {
     text-transform: uppercase;
