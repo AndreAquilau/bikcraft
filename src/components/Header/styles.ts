@@ -3,9 +3,13 @@ import styled from 'styled-components';
 export const Container = styled.header`
   display: flex;
   background-color: #fec63e;
-  padding: 1% 5%;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 1% 4%;
 
   .logo {
     width: 100px;
@@ -24,14 +28,8 @@ export const Container = styled.header`
       font-weight: bold;
 
       &:hover {
-        animation: hoverItensMenu 0.5s linear both;
+        text-transform: underline;
       }
-    }
-  }
-
-  @keyframes hoverItensMenu {
-    to {
-      text-decoration: underline;
     }
   }
 `;
