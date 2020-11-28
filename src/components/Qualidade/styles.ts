@@ -22,7 +22,7 @@ export const Container = styled.div`
     .box-logo {
       position: absolute;
       background-color: white;
-      z-index: 1;
+      z-index: 0;
     }
     .box1 {
       width: 400px;

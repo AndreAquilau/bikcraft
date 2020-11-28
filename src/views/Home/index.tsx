@@ -7,6 +7,9 @@ import Catalogo from '../../components/Catalogo';
 import { esporte, passeio, retro } from '../../assets';
 import Portfolio from '../../components/Portfolio';
 import Qualidade from '../../components/Qualidade';
+import Message from '../../components/Message';
+import Contatos from '../../components/Contatos';
+import Footer from '../../components/Footer';
 
 export default function Home(): JSX.Element {
   return (
@@ -45,6 +48,9 @@ export default function Home(): JSX.Element {
       </div>
       <Portfolio></Portfolio>
       <Qualidade></Qualidade>
+      <Message></Message>
+      <Contatos></Contatos>
+      <Footer></Footer>
     </Container>
   );
 }

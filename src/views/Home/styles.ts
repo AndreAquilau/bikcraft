@@ -5,10 +5,9 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   .intro-home {
-    margin-top: 5%;
     display: flex;
     flex-direction: column;
-    height: 333px;
+    height: 400px;
     align-items: center;
     justify-content: center;
     background: url(${mesaTrabalho}) 100% 100% / 100% 100% no-repeat fixed;

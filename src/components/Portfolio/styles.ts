@@ -7,7 +7,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 3% 5%;
+  padding: 3% 12%;
   overflow: hidden;
   margin-top: 10%;
   grid-template-areas:
@@ -36,7 +36,6 @@ export const Container = styled.div`
     grid-area: imagens;
     overflow: hidden;
     width: 100%;
-
     .image1 {
       width: 100%;
       height: 400px;
@@ -62,11 +61,11 @@ export const Container = styled.div`
     .image3 {
       margin-top: 2%;
       grid-column: 1/3;
-      height: 400px;
+      height: 450px;
       overflow: hidden;
       img {
-        width: 110%;
-        height: 130%;
+        width: 100%;
+        height: 100%;
         transform: translateY(-100px);
       }
     }
@@ -75,7 +74,6 @@ export const Container = styled.div`
   p {
     grid-area: p;
     color: #fff;
-    margin-top: 4%;
   }
   button {
     grid-area: btn;
