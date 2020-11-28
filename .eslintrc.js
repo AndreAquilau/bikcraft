@@ -24,5 +24,6 @@ module.exports = {
   rules: {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     'react/no-unescaped-entities': 'off',
+    '@typescript-eslint/no-unused-vars': 'off',
   },
 };
