@@ -16,7 +16,7 @@ export const Container = styled.div`
   }
   .orcamento-header {
     width: 100%;
-    background-color: #000;
+    background-color: ${(props: { background: any }) => props.background};
     text-align: center;
     padding-top: 3%;
 
@@ -38,7 +38,7 @@ export const Container = styled.div`
     padding-bottom: 3%;
     align-items: center;
     justify-content: space-around;
-    background-color: #000;
+    background-color: ${(props: { background: any }) => props.background};
   }
   #orcamento-body_formulario {
     width: 30%;

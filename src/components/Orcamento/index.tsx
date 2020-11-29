@@ -3,7 +3,7 @@ import { Container } from './styles';
 import OrcamentoInterface from '../../interface/Orcamento';
 export default function Orcamento(props: OrcamentoInterface): JSX.Element {
   return (
-    <Container>
+    <Container background={props.background}>
       <div className="orcamento-header">
         <h1>Orçamento</h1>
         <hr />

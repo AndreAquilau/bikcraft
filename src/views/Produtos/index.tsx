@@ -12,7 +12,7 @@ import MonteBikcraft from '../../components/MonteBikcraft';
 
 export default function Produtos(): JSX.Element {
   return (
-    <Container>
+    <>
       <Header></Header>
       <div className="intro-produto">
         <h1>PRODUTOS</h1>
@@ -43,10 +43,10 @@ export default function Produtos(): JSX.Element {
         text="Bicicleta Com o Menor Preço e Melhores Ofertas Estão No Zoom. Acesse e compre apenas em lojas confiáveis. Compare ofertas e economize!"
         qualidade={['Conforto', 'Velocidade', 'Design', 'Versatilidade']}
       ></Produto>
-      <Orcamento el={MonteBikcraft()}></Orcamento>
+      <Orcamento el={MonteBikcraft()} background={'#000'}></Orcamento>
       <Message></Message>
       <Contatos></Contatos>
       <Footer></Footer>
-    </Container>
+    </>
   );
 }
