@@ -7,6 +7,8 @@ import { passeio, passeio4, passeio1, esporte4, esporte, esporte2, retro2, retro
 import Message from '../../components/Message';
 import Contatos from '../../components/Contatos';
 import Footer from '../../components/Footer';
+import Orcamento from '../../components/Orcamento';
+import MonteBikcraft from '../../components/MonteBikcraft';
 
 export default function Produtos(): JSX.Element {
   return (
@@ -41,6 +43,7 @@ export default function Produtos(): JSX.Element {
         text="Bicicleta Com o Menor Preço e Melhores Ofertas Estão No Zoom. Acesse e compre apenas em lojas confiáveis. Compare ofertas e economize!"
         qualidade={['Conforto', 'Velocidade', 'Design', 'Versatilidade']}
       ></Produto>
+      <Orcamento el={MonteBikcraft()}></Orcamento>
       <Message></Message>
       <Contatos></Contatos>
       <Footer></Footer>
