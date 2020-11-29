@@ -9,8 +9,9 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     background: url(${esporte1}) 100% 100%/ 100% 100% fixed no-repeat;
-    background-position: 0px -300px;
+    background-position: 0px -100px;
 
+    background-color: #fff;
     h1 {
       text-transform: uppercase;
       color: #fff;

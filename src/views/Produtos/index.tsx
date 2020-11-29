@@ -12,8 +12,8 @@ import MonteBikcraft from '../../components/MonteBikcraft';
 
 export default function Produtos(): JSX.Element {
   return (
-    <>
-      <Header></Header>
+    <Container>
+      {<Header></Header>}
       <div className="intro-produto">
         <h1>PRODUTOS</h1>
         <hr />
@@ -47,6 +47,6 @@ export default function Produtos(): JSX.Element {
       <Message></Message>
       <Contatos></Contatos>
       <Footer></Footer>
-    </>
+    </Container>
   );
 }

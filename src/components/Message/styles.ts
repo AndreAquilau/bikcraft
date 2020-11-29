@@ -4,7 +4,6 @@ export const Container = styled.div`
   width: 100%;
   height: 270px;
   overflow: hidden;
-  margin-top: 5%;
 
   .text {
     width: 100%;

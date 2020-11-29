@@ -1,15 +1,16 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-  display: flex;
+  display: ${(props: { display: string; position: string }) => props.display};
   background-color: #fec63e;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  position: ${(props: { position: string; display: string }) => props.position};
   width: 100%;
   z-index: 1;
   box-sizing: border-box;
   padding: 0% 4%;
+  transition: 3s linear;
 
   .logo {
     width: 100px;

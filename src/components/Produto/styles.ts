@@ -7,7 +7,7 @@ export const Container = styled.div`
   margin-left: 10%;
   margin-right: 10%;
   grid-row-gap: 10px;
-  margin-top: 10%;
+  margin-top: 5%;
 
   .header-produto {
     display: grid;
