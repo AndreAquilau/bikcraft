@@ -18,22 +18,6 @@ import {
   esporte2,
 } from '../../assets';
 export default function Portfolio(): JSX.Element {
-  const [getImages, setImages] = useState([retro2, passeio4, passeio2]);
-  const [getSlide, setSlide] = useState(0);
-  setInterval(() => {
-    if (getSlide === 0) {
-      setImages([retro2, passeio4, passeio2]);
-      setSlide(1);
-    }
-    if (getSlide === 1) {
-      setImages([retro3, passeio1, passeio3]);
-      setSlide(2);
-    }
-    if (getSlide === 2) {
-      setImages([retro3, passeio2, esporte2]);
-      setSlide(0);
-    }
-  }, 5000);
   return (
     <Container>
       <Header></Header>
@@ -51,9 +35,9 @@ export default function Portfolio(): JSX.Element {
       </div>
 
       <div className="portifolio-images">
-        <div className="image1">{<img src={getImages[0]} alt="retro" />}</div>
-        <div className="image2">{<img src={getImages[1]} alt="passeio" />}</div>
-        <div className="image3">{<img src={getImages[2]} alt="passeio" />}</div>
+        <div className="image1">{<img src={retro2} alt="retro" />}</div>
+        <div className="image2">{<img src={passeio4} alt="passeio" />}</div>
+        <div className="image3">{<img src={passeio2} alt="passeio" />}</div>
         <div className="box">
           <div className="box1"></div>
           <div className="box2"></div>

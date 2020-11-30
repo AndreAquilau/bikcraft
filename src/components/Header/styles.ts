@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-  display: ${(props: { display: string; position: string }) => props.display};
+  display: flex;
   background-color: #fec63e;
   justify-content: space-between;
   align-items: center;
-  position: ${(props: { position: string; display: string }) => props.position};
+  position: fixed;
   width: 100%;
   z-index: 1;
   box-sizing: border-box;
