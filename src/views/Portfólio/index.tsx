@@ -4,19 +4,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Contatos from '../../components/Contatos';
 import Message from '../../components/Message';
-import {
-  passeio2,
-  passeio4,
-  retro2,
-  retro3,
-  retro,
-  passeio,
-  passeio3,
-  passeio1,
-  esporte1,
-  esporte,
-  esporte2,
-} from '../../assets';
+import { passeio2, passeio4, retro2 } from '../../assets';
 export default function Portfolio(): JSX.Element {
   return (
     <Container>
@@ -33,7 +21,6 @@ export default function Portfolio(): JSX.Element {
         </p>
         <h5>Baraba Mass</h5>
       </div>
-
       <div className="portifolio-images">
         <div className="image1">{<img src={retro2} alt="retro" />}</div>
         <div className="image2">{<img src={passeio4} alt="passeio" />}</div>
