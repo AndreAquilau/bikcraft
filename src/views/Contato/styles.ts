@@ -39,8 +39,12 @@ export const Container = styled.div`
     }
 
     p {
-      color: #fff;
+      color: #000;
       font-family: Georgia, 'Times New Roman', Times, serif;
     }
+  }
+
+  label {
+    color: #000;
   }
 `;
